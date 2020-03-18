@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BGFMDB (2.0.1):
+    - BGFMDB/BG (= 2.0.1)
+    - BGFMDB/FMDB (= 2.0.1)
+  - BGFMDB/BG (2.0.1):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.1)
+  - IQKeyboardManager (5.0.4)
+  - RealReachability (1.1.9):
+    - RealReachability/Connection (= 1.1.9)
+    - RealReachability/Ping (= 1.1.9)
+  - RealReachability/Connection (1.1.9)
+  - RealReachability/Ping (1.1.9)
+  - Shimmer (1.0.2)
+  - WSProgressHUD (1.1.3):
+    - Shimmer
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BGFMDB
+  - IQKeyboardManager
+  - RealReachability
+  - WSProgressHUD
+  - YYCache (~> 1.0.4)
+  - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BGFMDB: 9616f1b73ed30ca4be7353e72bc969cdef6cc7ab
+  IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
+  RealReachability: a8c483900986a0f3305733961effbfbb00637a02
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  WSProgressHUD: a0902809c8af112fb34b004fdc75c16eb85167a3
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: c64b018ce0be4c447cd30d499afd3e65f53ba070
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,14 @@
+
+
+# 修改过得第三方库
+
+
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘WRNavigationBar_swift’ do
+    
+    #swift
+    pod 'Kingfisher'
+
+end

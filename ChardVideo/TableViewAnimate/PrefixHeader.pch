@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  learnDemo
+//
+//  Created by yangjian on 2017/12/11.
+//  Copyright © 2017年 yangjian. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+
+
+#define NSLog(format, ...) NSLog((@"[类名:%s]" "[行号:%d]  " format), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define NSLog(format, ...);
+
+
+#endif /* PrefixHeader_pch */
+
+#import "KeyDefine.h"
+
+#import "AllMethod.h"
+
+#import "UIView+Extension.h"
+
+

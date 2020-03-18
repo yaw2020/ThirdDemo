@@ -1,0 +1,23 @@
+PODS:
+  - SnapKit (4.2.0)
+  - VGPlayer (0.2.0):
+    - SnapKit (~> 4.2.0)
+
+DEPENDENCIES:
+  - VGPlayer (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  VGPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  VGPlayer: 0caf8058ef019d869005d7246a1f03c76acfe731
+
+PODFILE CHECKSUM: 42836598836d22df90bc314686421f150d136f4c
+
+COCOAPODS: 1.5.2

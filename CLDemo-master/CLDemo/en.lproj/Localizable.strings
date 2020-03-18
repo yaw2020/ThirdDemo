@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  CLDemo
+
+  Created by AUG on 2018/11/7.
+  Copyright © 2018年 JmoVxia. All rights reserved.
+*/
+
+
+"返回" = "Back";
+"主页" = "Home";
+"跟随系统" = "Follow System";
+"中文" = "Chinese";
+"英文" = "English";
+"我的" = "Me";
+"切换语言" = "Change Language";
+"收藏" = "Collection";
+"课程" = "Curriculum";
+"搜索" = "Search";
+"修改字号" = "Change Font Size";
+"推荐" = "Recommended";
+"精华" = "Essence";
+"图片" = "Picture";
+"声音" = "Voice";
+"视频" = "Video";
+"福利" = "Welfare";
+"转子动画" = "RotateAnimation";
+"旋转图片" = "RotatingPicture";
+"自定义密码框" = "CustomPassword";
+"日志" = "Log";
+"自定义输入工具条" = "CustomInputToolBar";
+"银行卡识别" = "BankCard Scan";
+
+

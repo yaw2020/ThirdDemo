@@ -1,0 +1,156 @@
+// !$*UTF8*$!
+{
+	07B0BBE611172EFA00C690E7 /* UIImageViewAnimator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {488, 650}}";
+			sepNavSelRange = "{876, 12}";
+			sepNavVisRange = "{471, 595}";
+		};
+	};
+	07B0BBE711172EFA00C690E7 /* UIImageViewAnimator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 3835}}";
+			sepNavSelRange = "{5833, 0}";
+			sepNavVisRange = "{5659, 636}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* UIImageViewAnimatorSample */ = {
+		activeExec = 0;
+		executables = (
+			73A70A5711FD7DA700411B78 /* UIImageViewAnimatorSample */,
+		);
+	};
+	28D7ACF70DDB3853001CB0EB /* UIImageViewAnimatorSampleViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {687, 1378}}";
+			sepNavSelRange = "{1787, 0}";
+			sepNavVisRange = "{1571, 537}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 73A70A5711FD7DA700411B78 /* UIImageViewAnimatorSample */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* UIImageViewAnimatorSample */;
+		codeSenseManager = 73A70A6411FD7DC800411B78 /* Code sense */;
+		executables = (
+			73A70A5711FD7DA700411B78 /* UIImageViewAnimatorSample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					509,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 301826333;
+			PBXWorkspaceStateSaveDate = 301826333;
+		};
+		perUserProjectItems = {
+			73A70A9011FD89EA00411B78 /* PBXTextBookmark */ = 73A70A9011FD89EA00411B78 /* PBXTextBookmark */;
+			73A70A9111FD89EA00411B78 /* PBXTextBookmark */ = 73A70A9111FD89EA00411B78 /* PBXTextBookmark */;
+			73A70A9211FD89EA00411B78 /* PBXTextBookmark */ = 73A70A9211FD89EA00411B78 /* PBXTextBookmark */;
+			73A70A9311FD89EA00411B78 /* PBXTextBookmark */ = 73A70A9311FD89EA00411B78 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 73A70A6311FD7DC800411B78 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	73A70A5711FD7DA700411B78 /* UIImageViewAnimatorSample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = UIImageViewAnimatorSample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	73A70A6311FD7DC800411B78 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	73A70A6411FD7DC800411B78 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	73A70A9011FD89EA00411B78 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07B0BBE611172EFA00C690E7 /* UIImageViewAnimator.h */;
+		name = "UIImageViewAnimator.h: 39";
+		rLen = 12;
+		rLoc = 876;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 471;
+	};
+	73A70A9111FD89EA00411B78 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 07B0BBE711172EFA00C690E7 /* UIImageViewAnimator.m */;
+		name = "UIImageViewAnimator.m: 233";
+		rLen = 0;
+		rLoc = 5833;
+		rType = 0;
+		vrLen = 636;
+		vrLoc = 5659;
+	};
+	73A70A9211FD89EA00411B78 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIImageViewAnimatorSampleViewController.m */;
+		name = "UIImageViewAnimatorSampleViewController.m: 86";
+		rLen = 0;
+		rLoc = 2024;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 1505;
+	};
+	73A70A9311FD89EA00411B78 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* UIImageViewAnimatorSampleViewController.m */;
+		name = "UIImageViewAnimatorSampleViewController.m: 77";
+		rLen = 0;
+		rLoc = 1787;
+		rType = 0;
+		vrLen = 537;
+		vrLoc = 1571;
+	};
+}

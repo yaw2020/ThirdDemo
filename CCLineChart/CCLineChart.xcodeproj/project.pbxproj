@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBCEAF5320C50B1000D5FA8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCEAF5220C50B1000D5FA8D /* AppDelegate.m */; };
+		CBCEAF5620C50B1000D5FA8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCEAF5520C50B1000D5FA8D /* ViewController.m */; };
+		CBCEAF5920C50B1000D5FA8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCEAF5720C50B1000D5FA8D /* Main.storyboard */; };
+		CBCEAF5B20C50B1000D5FA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCEAF5A20C50B1000D5FA8D /* Assets.xcassets */; };
+		CBCEAF5E20C50B1000D5FA8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCEAF5C20C50B1000D5FA8D /* LaunchScreen.storyboard */; };
+		CBCEAF6120C50B1000D5FA8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCEAF6020C50B1000D5FA8D /* main.m */; };
+		CBCEAF6B20C50B1000D5FA8D /* CCLineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCEAF6A20C50B1000D5FA8D /* CCLineChartTests.m */; };
+		CBCEAF7620C50B1000D5FA8D /* CCLineChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCEAF7520C50B1000D5FA8D /* CCLineChartUITests.m */; };
+		CBCEAF8720C50BAC00D5FA8D /* HomeLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCEAF8520C50BAC00D5FA8D /* HomeLineChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBCEAF6720C50B1000D5FA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCEAF4620C50B1000D5FA8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCEAF4D20C50B1000D5FA8D;
+			remoteInfo = CCLineChart;
+		};
+		CBCEAF7220C50B1000D5FA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBCEAF4620C50B1000D5FA8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCEAF4D20C50B1000D5FA8D;
+			remoteInfo = CCLineChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBCEAF4E20C50B1000D5FA8D /* CCLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCEAF5120C50B1000D5FA8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBCEAF5220C50B1000D5FA8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBCEAF5420C50B1000D5FA8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBCEAF5520C50B1000D5FA8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBCEAF5820C50B1000D5FA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBCEAF5A20C50B1000D5FA8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCEAF5D20C50B1000D5FA8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBCEAF5F20C50B1000D5FA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCEAF6020C50B1000D5FA8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBCEAF6620C50B1000D5FA8D /* CCLineChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCLineChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCEAF6A20C50B1000D5FA8D /* CCLineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLineChartTests.m; sourceTree = "<group>"; };
+		CBCEAF6C20C50B1000D5FA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCEAF7120C50B1000D5FA8D /* CCLineChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCLineChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCEAF7520C50B1000D5FA8D /* CCLineChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCLineChartUITests.m; sourceTree = "<group>"; };
+		CBCEAF7720C50B1000D5FA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCEAF8520C50BAC00D5FA8D /* HomeLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeLineChartView.m; sourceTree = "<group>"; };
+		CBCEAF8620C50BAC00D5FA8D /* HomeLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeLineChartView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBCEAF4B20C50B1000D5FA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCEAF6320C50B1000D5FA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCEAF6E20C50B1000D5FA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBCEAF4520C50B1000D5FA8D = {
+			isa = PBXGroup;
+			children = (
+				CBCEAF5020C50B1000D5FA8D /* CCLineChart */,
+				CBCEAF6920C50B1000D5FA8D /* CCLineChartTests */,
+				CBCEAF7420C50B1000D5FA8D /* CCLineChartUITests */,
+				CBCEAF4F20C50B1000D5FA8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBCEAF4F20C50B1000D5FA8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBCEAF4E20C50B1000D5FA8D /* CCLineChart.app */,
+				CBCEAF6620C50B1000D5FA8D /* CCLineChartTests.xctest */,
+				CBCEAF7120C50B1000D5FA8D /* CCLineChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCEAF5020C50B1000D5FA8D /* CCLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				CBCEAF8420C50B9400D5FA8D /* 折线图 */,
+				CBCEAF5120C50B1000D5FA8D /* AppDelegate.h */,
+				CBCEAF5220C50B1000D5FA8D /* AppDelegate.m */,
+				CBCEAF5420C50B1000D5FA8D /* ViewController.h */,
+				CBCEAF5520C50B1000D5FA8D /* ViewController.m */,
+				CBCEAF5720C50B1000D5FA8D /* Main.storyboard */,
+				CBCEAF5A20C50B1000D5FA8D /* Assets.xcassets */,
+				CBCEAF5C20C50B1000D5FA8D /* LaunchScreen.storyboard */,
+				CBCEAF5F20C50B1000D5FA8D /* Info.plist */,
+				CBCEAF6020C50B1000D5FA8D /* main.m */,
+			);
+			path = CCLineChart;
+			sourceTree = "<group>";
+		};
+		CBCEAF6920C50B1000D5FA8D /* CCLineChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCEAF6A20C50B1000D5FA8D /* CCLineChartTests.m */,
+				CBCEAF6C20C50B1000D5FA8D /* Info.plist */,
+			);
+			path = CCLineChartTests;
+			sourceTree = "<group>";
+		};
+		CBCEAF7420C50B1000D5FA8D /* CCLineChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBCEAF7520C50B1000D5FA8D /* CCLineChartUITests.m */,
+				CBCEAF7720C50B1000D5FA8D /* Info.plist */,
+			);
+			path = CCLineChartUITests;
+			sourceTree = "<group>";
+		};
+		CBCEAF8420C50B9400D5FA8D /* 折线图 */ = {
+			isa = PBXGroup;
+			children = (
+				CBCEAF8620C50BAC00D5FA8D /* HomeLineChartView.h */,
+				CBCEAF8520C50BAC00D5FA8D /* HomeLineChartView.m */,
+			);
+			path = "折线图";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBCEAF4D20C50B1000D5FA8D /* CCLineChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCEAF7A20C50B1000D5FA8D /* Build configuration list for PBXNativeTarget "CCLineChart" */;
+			buildPhases = (
+				CBCEAF4A20C50B1000D5FA8D /* Sources */,
+				CBCEAF4B20C50B1000D5FA8D /* Frameworks */,
+				CBCEAF4C20C50B1000D5FA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCLineChart;
+			productName = CCLineChart;
+			productReference = CBCEAF4E20C50B1000D5FA8D /* CCLineChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBCEAF6520C50B1000D5FA8D /* CCLineChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCEAF7D20C50B1000D5FA8D /* Build configuration list for PBXNativeTarget "CCLineChartTests" */;
+			buildPhases = (
+				CBCEAF6220C50B1000D5FA8D /* Sources */,
+				CBCEAF6320C50B1000D5FA8D /* Frameworks */,
+				CBCEAF6420C50B1000D5FA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCEAF6820C50B1000D5FA8D /* PBXTargetDependency */,
+			);
+			name = CCLineChartTests;
+			productName = CCLineChartTests;
+			productReference = CBCEAF6620C50B1000D5FA8D /* CCLineChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBCEAF7020C50B1000D5FA8D /* CCLineChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBCEAF8020C50B1000D5FA8D /* Build configuration list for PBXNativeTarget "CCLineChartUITests" */;
+			buildPhases = (
+				CBCEAF6D20C50B1000D5FA8D /* Sources */,
+				CBCEAF6E20C50B1000D5FA8D /* Frameworks */,
+				CBCEAF6F20C50B1000D5FA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCEAF7320C50B1000D5FA8D /* PBXTargetDependency */,
+			);
+			name = CCLineChartUITests;
+			productName = CCLineChartUITests;
+			productReference = CBCEAF7120C50B1000D5FA8D /* CCLineChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBCEAF4620C50B1000D5FA8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Caroline;
+				TargetAttributes = {
+					CBCEAF4D20C50B1000D5FA8D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CBCEAF6520C50B1000D5FA8D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBCEAF4D20C50B1000D5FA8D;
+					};
+					CBCEAF7020C50B1000D5FA8D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBCEAF4D20C50B1000D5FA8D;
+					};
+				};
+			};
+			buildConfigurationList = CBCEAF4920C50B1000D5FA8D /* Build configuration list for PBXProject "CCLineChart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBCEAF4520C50B1000D5FA8D;
+			productRefGroup = CBCEAF4F20C50B1000D5FA8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBCEAF4D20C50B1000D5FA8D /* CCLineChart */,
+				CBCEAF6520C50B1000D5FA8D /* CCLineChartTests */,
+				CBCEAF7020C50B1000D5FA8D /* CCLineChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBCEAF4C20C50B1000D5FA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCEAF5E20C50B1000D5FA8D /* LaunchScreen.storyboard in Resources */,
+				CBCEAF5B20C50B1000D5FA8D /* Assets.xcassets in Resources */,
+				CBCEAF5920C50B1000D5FA8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCEAF6420C50B1000D5FA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCEAF6F20C50B1000D5FA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBCEAF4A20C50B1000D5FA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCEAF8720C50BAC00D5FA8D /* HomeLineChartView.m in Sources */,
+				CBCEAF5620C50B1000D5FA8D /* ViewController.m in Sources */,
+				CBCEAF6120C50B1000D5FA8D /* main.m in Sources */,
+				CBCEAF5320C50B1000D5FA8D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCEAF6220C50B1000D5FA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCEAF6B20C50B1000D5FA8D /* CCLineChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCEAF6D20C50B1000D5FA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCEAF7620C50B1000D5FA8D /* CCLineChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBCEAF6820C50B1000D5FA8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCEAF4D20C50B1000D5FA8D /* CCLineChart */;
+			targetProxy = CBCEAF6720C50B1000D5FA8D /* PBXContainerItemProxy */;
+		};
+		CBCEAF7320C50B1000D5FA8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCEAF4D20C50B1000D5FA8D /* CCLineChart */;
+			targetProxy = CBCEAF7220C50B1000D5FA8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBCEAF5720C50B1000D5FA8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCEAF5820C50B1000D5FA8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBCEAF5C20C50B1000D5FA8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBCEAF5D20C50B1000D5FA8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBCEAF7820C50B1000D5FA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBCEAF7920C50B1000D5FA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBCEAF7B20C50B1000D5FA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CCLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBCEAF7C20C50B1000D5FA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CCLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBCEAF7E20C50B1000D5FA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CCLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCLineChart.app/CCLineChart";
+			};
+			name = Debug;
+		};
+		CBCEAF7F20C50B1000D5FA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CCLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCLineChart.app/CCLineChart";
+			};
+			name = Release;
+		};
+		CBCEAF8120C50B1000D5FA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CCLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCLineChart;
+			};
+			name = Debug;
+		};
+		CBCEAF8220C50B1000D5FA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CCLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCLineChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBCEAF4920C50B1000D5FA8D /* Build configuration list for PBXProject "CCLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCEAF7820C50B1000D5FA8D /* Debug */,
+				CBCEAF7920C50B1000D5FA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCEAF7A20C50B1000D5FA8D /* Build configuration list for PBXNativeTarget "CCLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCEAF7B20C50B1000D5FA8D /* Debug */,
+				CBCEAF7C20C50B1000D5FA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCEAF7D20C50B1000D5FA8D /* Build configuration list for PBXNativeTarget "CCLineChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCEAF7E20C50B1000D5FA8D /* Debug */,
+				CBCEAF7F20C50B1000D5FA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBCEAF8020C50B1000D5FA8D /* Build configuration list for PBXNativeTarget "CCLineChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBCEAF8120C50B1000D5FA8D /* Debug */,
+				CBCEAF8220C50B1000D5FA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBCEAF4620C50B1000D5FA8D /* Project object */;
+}
